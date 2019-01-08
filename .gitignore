@@ -1,0 +1,8 @@
+*.depend
+/bin
+/obj
+gmon.out
+*.o
+*.obj
+*.exe
+*.layout

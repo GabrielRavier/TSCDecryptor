@@ -82,6 +82,7 @@ int main()
             {
                 cout << "Enter name for file : ";
                 string path2;
+                cin.ignore();
                 std::getline(cin, path2);
                 ofstream MyFile(path2.c_str());
                 if (!(MyFile))
